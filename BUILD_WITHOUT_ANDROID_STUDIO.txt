@@ -1,0 +1,18 @@
+TIMETRACE — BUILD APK WITHOUT ANDROID STUDIO
+
+1. Sign in to GitHub and create a NEW empty repository named TimeTrace.
+2. Upload the CONTENTS of this TimeTrace folder to the repository root
+   (the .github folder must also be uploaded; enable viewing hidden files if needed).
+3. Open the repository's Actions tab.
+4. Select "Build TimeTrace APK" and press "Run workflow" if it did not start automatically.
+5. Wait for the workflow to finish successfully.
+6. Open the completed workflow run, find Artifacts, and download
+   "TimeTrace-debug-apk". It is a ZIP containing app-debug.apk.
+7. Extract app-debug.apk, send it to your Redmi, and install it.
+
+NOTES
+- This workflow builds a debug APK, not a Play Store release.
+- GitHub account and internet access are required.
+- The first build downloads Gradle/Android build dependencies and may take several minutes.
+- Android Studio is NOT required on your PC.
+- After installation, grant Usage Access inside Android settings.
